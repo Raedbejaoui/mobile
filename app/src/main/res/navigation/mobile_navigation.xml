@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_restaurant">
+
+    <fragment
+        android:id="@+id/nav_restaurant"
+        android:name="com.example.internship.WelcomeActivity"
+        android:label="Offer"
+        tools:layout="@layout/activity_welcome" />
+
+    <fragment
+        android:id="@+id/nav_add_restaurant"
+        android:name="com.example.internship.WelcomeActivity"
+        tools:layout="@layout/activity_welcome"
+        android:label="Restaurant"
+        />
+
+    <fragment
+        android:id="@+id/nav_users"
+        android:label="Users"
+        android:name="com.example.internship.WelcomeActivity"
+        tools:layout="@layout/activity_welcome"
+
+        />
+</navigation>
